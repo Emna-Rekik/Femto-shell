@@ -1,5 +1,7 @@
 ## Femto-shell Assignment #1
 
+Write a shell in c language that echoes any command entered by the user. The shell will have only one built-in command "exit". If the user entered "exit", the shell will reply with "Good Bye" and terminate.
+
 ---
 #### Compilation command
 ---
@@ -7,6 +9,19 @@
 $ gcc Femto_shell.c -o Femto_shell
 ```
 ## Femto_shell_1st_extention Assignment #2
+
+Extend your Femto Shell with the following three builtin commands:
+
+rand : this command will generate a random number and print it to the user.
+
+fact: this command calculates the factorial of the number entered by the user.
+
+fib: this command will print the fibonacci sequence of the number entered by the user.
+- Implement a separate function for each command in a separate file.
+- Create header files for these functions.
+- Compile these files and create a static library including them and then use this library in your program.
+- Compile these files and create a dynamic library including them and then use this library in your program.
+
 ---
 #### Create a static library and use it in the program
 ---
