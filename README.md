@@ -37,3 +37,11 @@ $ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/emna/Linux_Study_Group/Femto_she
 
 $ ./Femto_shell_1st_extention_dynamic
 ```
+## Femto_shell_1st_extention_makefile Assignment #3
+
+---
+#### Build the progarm using the makefile
+---
+```
+$ make
+```
