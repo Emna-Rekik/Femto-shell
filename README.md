@@ -1,12 +1,14 @@
 ## Femto-shell Assignment #1
 
-### compilation command :
-
+---
+#### compilation command
+---
+```
 $ gcc Femto_shell.c -o Femto_shell
-
+```
 ## Femto_shell_1st_extention Assignment #2
 ---
-#### 1. Create a static library and use it in the program:
+#### Create a static library and use it in the program
 ---
 ```
 Navigate to the library folder named "Femto_shell_library" and execute these commands:
