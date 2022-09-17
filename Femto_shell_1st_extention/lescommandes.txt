@@ -1,0 +1,22 @@
+Create a static library :
+gcc -c *.c
+ar -rs libstaticmath.a *.o
+
+gcc -c Femto_shell_1st_extention.c -I ./Femto_shell_library/
+gcc Femto_shell_1st_extention.o -o Femto_shell_1st_extention_static --static -lstaticmath -L ./Femto_shell_library/
+
+./Femto_shell_1st_extention_static
+
+Create a dynamic library :
+gcc -c -fPIC *.c
+gcc -shared *.o -o libdynamicmath.so
+
+gcc -c Femto_shell_1st_extention.c -I ./Femto_shell_library/
+gcc Femto_shell_1st_extention.o -o Femto_shell_1st_extention_dynamic -ldynamicmath -L ./Femto_shell_library/
+
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/emna/Linux_Study_Group/Femto_shell_1st_extention/Femto_shell_library
+
+./Femto_shell_1st_extention_dynamic
+
+
+
