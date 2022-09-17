@@ -7,6 +7,7 @@ $ gcc Femto_shell.c -o Femto_shell
 ## Femto_shell_1st_extention Assignment #2
 ---
 #### 1. Create a static library and use it in the program:
+---
 ```
 Navigate to the library folder named "Femto_shell_library" and execute these commands:
 $ gcc -c *.c
@@ -17,4 +18,4 @@ $ gcc -c Femto_shell_1st_extention.c -I ./Femto_shell_library/
 $	gcc Femto_shell_1st_extention.o -o Femto_shell_1st_extention_static --static -lstaticmath -L ./Femto_shell_library
 
 $ ./Femto_shell_1st_extention_static
-
+```
