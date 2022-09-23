@@ -1,0 +1,5 @@
+*.o
+*.run
+*.so
+*.a
+lescommandes.txt

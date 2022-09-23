@@ -41,10 +41,12 @@ int main()
     		printf("Enter a number: ");
     		scanf("%d", &number);
     		printf("\nThe sequence is:  ");
-    		for (int i = 1; i <= number; i++)
+    		int *fib = fibonacci(number);
+    		for (int i = 0; i <= number; i++)
 		{
-			printf("%d ", fibonacci(i));
+			printf("%d ", fib[i]);
 		}
+		free(fib);
     		printf("\n");
     	}
     	else

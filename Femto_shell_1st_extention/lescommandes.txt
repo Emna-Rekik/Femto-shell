@@ -3,7 +3,7 @@ gcc -c *.c
 ar -rs libstaticmath.a *.o
 
 gcc -c Femto_shell_1st_extention.c -I ./Femto_shell_library/
-gcc Femto_shell_1st_extention.o -o Femto_shell_1st_extention_static --static -lstaticmath -L ./Femto_shell_library/
+gcc Femto_shell_1st_extention.o -o Femto_shell_1st_extention_static.run --static -lstaticmath -L ./Femto_shell_library/
 
 ./Femto_shell_1st_extention_static
 
