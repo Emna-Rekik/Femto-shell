@@ -59,6 +59,9 @@ $ ./Femto_shell_1st_extention_dynamic
 ---
 #### Build the progarm using the makefile
 ---
+Use makefile(s) to build the artifacts of assignment 2  (executable, static lib, dynamic lib, ..)
 ```
-$ make
+$ make Femto_with_dynamic_lib
+OR
+$ make Femto_with_static_lib
 ```
