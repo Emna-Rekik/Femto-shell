@@ -52,7 +52,7 @@ $ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/emna/Linux_Study_Group/Femto_she
 
 $ ./Femto_shell_1st_extention_dynamic
 ```
-![Screenshot from 2022-09-17 17-16-43](https://user-images.githubusercontent.com/89909599/190866561-86677ee8-2d3e-4354-804d-569fb8ef7174.png)
+![exec](https://user-images.githubusercontent.com/89909599/192054871-d84c5056-d3d4-4dec-96e6-dfc44cc2045e.png)
 
 ## Femto_shell_1st_extention_makefile Assignment #3
 
